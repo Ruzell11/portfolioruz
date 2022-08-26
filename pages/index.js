@@ -1,7 +1,8 @@
 import Head from 'next/head'
+import { About } from './About'
 import  Hero  from './Components/Hero.page'
 import  Navbar  from './Components/Navbar.page'
-import Technologies from './Components/Technologies'
+
 
 
 export default function Home() {
@@ -14,7 +15,8 @@ export default function Home() {
       </Head>
       <Navbar />
       <Hero/>
-      <Technologies/>
+      <About/>
+     
     </div>
   )
 }
