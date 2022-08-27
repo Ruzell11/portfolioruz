@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { About } from './About'
+import  About  from './About'
 import  Hero  from './Components/Hero.page'
 import  Navbar  from './Components/Navbar.page'
 
