@@ -1,7 +1,8 @@
 import Head from 'next/head'
-import  About  from './About'
+import  About  from './Components/About'
 import  Hero  from './Components/Hero.page'
 import  Navbar  from './Components/Navbar.page'
+import Skills from './Components/Technologies.page'
 
 
 
@@ -16,6 +17,7 @@ export default function Home() {
       <Navbar />
       <Hero/>
       <About/>
+      <Skills/>
      
     </div>
   )
