@@ -14,9 +14,7 @@ const Skills = () => {
               return (
                 <div
                   className='flex items-center justify-center slide'
-                  key={image}
-                >
-                  <Image className='lg:h-20 cursor-pointer hover:-translate-y-5 transition-all' src={`/${image}.png`} alt='' height='80px' width='80px' />
+                  key={image}>  <Image className='lg:h-20 cursor-pointer hover:-translate-y-5 transition-all object-contain' src={`/${image}.png`} alt='' height='80px' width='80px' />
                 </div>
               );
             })}

@@ -52,7 +52,7 @@ export default function Navbar() {
     {
       id: 4,
       link: 'Contact',
-      to: 'contact',
+      to: 'Contact',
       path: '/contact'
 
     }

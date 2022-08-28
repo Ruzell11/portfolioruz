@@ -31,7 +31,7 @@ export default function SocialMedia() {
         }
     ]
     return (
-        <div className='flex items-center justify-center space-x-8 text-3xl'>
+        <div className='flex items-center justify-center space-x-8  text-2xl md:text-3xl'>
             {SocialIcons.map(({ id, icon , link }) => {
                 return (
                     <div key={id}>

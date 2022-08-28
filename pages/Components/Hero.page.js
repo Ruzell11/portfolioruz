@@ -18,7 +18,7 @@ export default function Hero(){
                             I Build Web Applications
                         </h1>
                         <button className='capitalize mt-10 btn bg-[#8b4513] hover:bg-[#8b4513]/80 rounded-full py-3 px-4'>work with me</button>
-                        <div className='flex pt-7 space-x-6 text-md lg:text-3xl'>
+                        <div className='flex pt-7 space-x-6 text-md  lg:text-3xl'>
                       <SocialMedia/>
                         </div>
                     </div>
