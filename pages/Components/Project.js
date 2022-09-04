@@ -40,12 +40,13 @@ const Project = () => {
               <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 '>
                 {projectsLink.map(({names,technologies,image , link , repository})=> {
                   return(
-                    <div className=' w-full flex items-center justify-center py-3 px-4 flex-col space-y-5'>
+                    <div className=' w-full flex items-center justify-center py-3 px-4 flex-col space-y-5' key={names}>
                     <div className='bg-black/90 shadow-md rounded-lg shadow-slate-500 px-4 py-3 cursor-pointer transition duration-300 ease-linear hover:shadow-lg hover:shadow-white'>
                       <Image
                         src={`/${image}.jpg`}
                         height='200px'
                         width={400}
+                        alt={names}
                         className='object-fit  cursor-pointer'
                       />
                       <div className='flex justify-between items-center  pt-5 px-4'>
