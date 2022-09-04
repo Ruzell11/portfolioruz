@@ -45,7 +45,6 @@ const Contact = () => {
                                 </div>
                                 <div className='pt-3'>
                                 <button className='rounded-full py-3 px-3 bg-black/90 text-white w-full '>Send</button>
-
                                 </div>
 
                             </form>
