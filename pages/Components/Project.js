@@ -49,14 +49,14 @@ const Project = () => {
                         alt={names}
                         className='object-fit  cursor-pointer'
                       />
-                      <div className='flex justify-between items-center  pt-5 px-4'>
+                      <div className='flex justify-between items-center  pt-5 px-4 space-x-6 '>
                         <Link href={link}>
-                          <a className='bg-white py-1 px-2 rounded-lg font-serif hover:bg-white/70 transition duration-300 ease-in'>
+                          <a className='bg-white py-1 px-2  text-sm lg:text-md rounded-lg font-serif hover:bg-white/70 transition duration-300 ease-in mx-3'>
                             Visit Demo
                           </a>
                         </Link>
                         <Link href={repository}>
-                        <a className='bg-white py-1 px-2 rounded-lg font-serif hover:bg-white/70 transition duration-300 ease-in'>
+                        <a className='bg-white py-1 px-2  text-sm lg:text-md rounded-lg font-serif hover:bg-white/70 transition duration-300 ease-in mx-3'>
                             View Repository
                           </a>
                         </Link>
