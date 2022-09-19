@@ -26,7 +26,14 @@ const Project = () => {
       technologies:'Material Ui , Html , Css , vanilla Js',
       repository:'https://github.com/Ruzell11/pokemon-landing-page',
       link:'https://ruzell11.github.io/pokemon-landing-page/#'
-    }    
+    },  
+    {
+      names:'Job Posting',
+      image:23,
+      technologies:'Laravel , Tailwind , Mysql',
+      repository:'#',
+      link:'http://dream-careers.herokuapp.com/'
+    },   
   ]
   return (
     <div name='Project' className='lg:h-[100vh] flex items-center bg-black lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'>
