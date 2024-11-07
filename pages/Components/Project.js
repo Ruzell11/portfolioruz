@@ -7,6 +7,20 @@ const Project = () => {
 
   const projectsLink = [
     {
+      names:'Salon Appointment System (Ongoing)',
+      image: 25,
+      technologies:'HTML, CSS, JS, PHP, MYSQL, Paymongo',
+      repository:'https://github.com/VonIsaac/Sofia-Salon',
+      link:'#'
+    },   
+    {
+      names:'E Blotter System (Ongoing)',
+      image:24,
+      technologies:'HTML, CSS, JS, PHP, MYSQL',
+      repository:'https://github.com/VonIsaac/e-blotter-app',
+      link:'#'
+    },   
+    {
       names:'Simple Blog Website',
       image:20,
       technologies:'Nextjs , Tailwind ,GraphCms',
@@ -34,13 +48,14 @@ const Project = () => {
       repository:'#',
       link:'http://dream-careers.herokuapp.com/'
     },   
+    
   ]
   return (
     <div name='Project' className='lg:h-[100vh] flex items-center bg-black lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'>
       <div className='container mx-auto h-full'>
         <div className="flex items-center h-full pt-8 space-x-20">
           <div className="flex-1 flex flex-col  items-center justify-center lg:items-start lg:max-w-[100%] w-full ">
-            <h1 className=' text-3xl lg:text-4xl text-white  mb-[20px] border-b-4  border-white '>
+            <h1 className=' text-3xl lg:text-4xl text-white  mb-[20px] border-b-4  border-white'>
               Projects
             </h1>
             <div className='w-full px-5 transition duration-300 ease-linear flex justify-center items-center h-full mt-3'>
@@ -56,14 +71,14 @@ const Project = () => {
                         alt={names}
                         className='object-fit  cursor-pointer'
                       />
-                      <div className='flex justify-between items-center  pt-5 px-4 space-x-6 '>
+                      <div className='flex flex-col space-y-2 sm:flex-row justify-between items-center  pt-5 sm:px-4 sm:space-x-6 '>
                         <Link href={link}>
-                          <a className='bg-white py-1 px-2  text-sm lg:text-md rounded-lg font-serif hover:bg-white/70 transition duration-300 ease-in mx-3'>
+                          <a className='w-full text-center bg-white py-1 sm:px-2  text-sm lg:text-md sm:rounded-lg font-serif hover:bg-white/70 transition duration-300 ease-in mx-3'>
                             Visit Demo
                           </a>
                         </Link>
                         <Link href={repository}>
-                        <a className='bg-white py-1 px-2  text-sm lg:text-md rounded-lg font-serif hover:bg-white/70 transition duration-300 ease-in mx-3'>
+                        <a className='w-full text-center bg-white py-1 sm:px-2  text-sm lg:text-md sm:rounded-lg font-serif hover:bg-white/70 transition duration-300 ease-in mx-3'>
                             View Repository
                           </a>
                         </Link>
